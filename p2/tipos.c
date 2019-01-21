@@ -21,7 +21,8 @@ int iCout() {
   return iOutput;
 }
 
-int dCout() {
+int dCout()
+{
   char cInput[100];
   double dOutput = 0.0;
   int iJ;
@@ -39,7 +40,8 @@ int dCout() {
   return dOutput;
 }
 
-int main(void) {
+int main(void)
+{
 
   int iX = iCout();
 
