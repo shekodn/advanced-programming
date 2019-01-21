@@ -17,7 +17,7 @@ Your double <<variable>> storage size is <<size>> bytes, I can read any number f
 - Get to know the function sizeof()
 - Look up the header file float.h, there might be some interesting macros inside it that could help you on printing the last line.
 - If you still have not done it, go research functions printf() and the printing formats, and scanf(), remember that you need to pass the parameters in scanf() as reference;
-- Remember to apply the coding standar, or you can loose up to 20% of your assignment
+- Remember to apply the coding standard, or you can loose up to 20% of your assignment
 
 ### Upload:
 A word file with:
