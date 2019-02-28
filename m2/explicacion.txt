@@ -1,0 +1,21 @@
+To change the protagonist I substituted Buck Mulligan with Sergio
+Diaz using the following command:
+
+sed -i.bu 's/Buck Mulligan/Sergio Diaz/g' copy_book.txt
+
+To change the antagonist I substituted Haines with Mr. Bean
+Diaz using the following command:
+
+sed -i.bu 's/Haines/Mr. Bean/g' copy_book.txt
+
+To change a place I substituted Lake with Kamanakaka Lake
+Diaz using the following command:
+sed -i.bu 's/Lake/Lake Kamanakaka/g' copy_book.txt
+
+To change a date I substituted Tuesday with Freaky Friday
+using the following command:
+sed -i.bu 's/Tuesday/FreakyFriday/g' copy_book.txt
+
+Here I had some LEET (Leet) fun:
+sed -i.bu 's/Fi/F1/g' copy_book.txt
+sed -i.bu 's/lee/133/g' copy_book.txt
