@@ -1,0 +1,9 @@
+- New features adopted from other languages
+- Old features that are improved
+- Standardizing newly launched APIs
+- Enhancement on security:
+  - eg. This will replace strcat(), strncpy() with strcat_s() and strncpy_s()
+- Features:
+  - The _Noreturn function Specifier
+  - Finer control over Threads.
+  - Type-Generic Functions

@@ -1,0 +1,11 @@
+
+First hour of Code
+
+Hacer una función verdaderamente random es complicado, pues la computadora necesita una inicialización o semilla para que pueda partir de ahí. Es por eso que mi generador de números random, es mas bien un generador de números “pseudo-random”. 
+
+Mi diseño es simple. Se basa en la idea del “middle square" y solo consiste en lo siguiente:
+Agarrar un número de cuatro dígitos
+Multiplicarlo por si mismo 
+Dividir el resultado entre 100 
+Aplicar el módulo de 10000
+Agarrar el resultado para que sea la inicialización/semilla para el siguiente calculo y así sucesivamente
