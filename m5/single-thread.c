@@ -28,7 +28,6 @@ void main() {
   dDeltaTime = (FinalTime.tv_sec - InitialTime.tv_sec);
   dDeltaTime += (FinalTime.tv_nsec - InitialTime.tv_nsec) / 1000000000.0;
 
-  printf("Resultado = %20.18lf (%f)\n", dAux, dDeltaTime);
   printf("Number of Threads: %d\n", iNumberOfThreads);
   printf("Result: %2.8lf\n", dAux);
   printf("Time: %f\n", dDeltaTime);
