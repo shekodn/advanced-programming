@@ -17,7 +17,7 @@ LRESULT CALLBACK mouseProc(int nCode, WPARAM wParam, LPARAM lParam)
         if(wParam == WM_LBUTTONDOWN)
         {
 		    FILE *fp;
-			fp = fopen ( "coordinates.txt", "a+t" );
+			fp = fopen ( "Coordenadas.txt", "a+t" );
 
 			sprintf(cCoords, "Mouse position X: %i Mouse position Y: %i \n", pMouseStruct->pt.x, pMouseStruct->pt.y);
 			fputs(cCoords, fp);
